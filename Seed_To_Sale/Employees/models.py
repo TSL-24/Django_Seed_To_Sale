@@ -12,4 +12,4 @@ class Employee(models.Model):
 	emp_start_date = models.DateField()
 	
 	def __str__(self):
-		return f"Employee ID:{self.emp_id}, Employee Name: {self.emp_first_name} {self.emp_last_name}"
+		return f'{self.emp_first_name} {self.emp_last_name}'
